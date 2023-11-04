@@ -1,0 +1,31 @@
+###
+
+GET https://reqres.in/api/users?page=2
+
+###
+
+GET https://reqres.in/api/users/2
+
+###
+
+POST https://reqres.in/api/users
+
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+###
+
+PUT https://reqres.in/api/users/2
+
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+
+###
+
+DELETE https://reqres.in/api/users/2
+
+###
